@@ -315,7 +315,7 @@ setMethod(f = "draw",
     signature = "HeatmapList",
     definition = function(object, 
     newpage = TRUE,
-    background = "white",
+    background = rgb(.92,.94,.96),
 
     row_title = character(0), 
     row_title_side = c("left", "right"), 
